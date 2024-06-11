@@ -31,7 +31,7 @@ Below is a table listing the Leetcode problems I have solved, along with their r
 *Note: The table above will be regularly updated with new problems and solutions.*
 
 ## Contributing
-Contributions are welcome! If you have a better solution or an alternative approach, feel free to open a pull request. Let's learn and grow together! ❤ 
+Contributions are welcome! If you have a better solution or an alternative approach, feel free to open a pull request. Let's learn and grow together! 🤝 
 
 ## Contact
 If you have any questions or suggestions, feel free to reach out.
