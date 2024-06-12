@@ -27,7 +27,7 @@ Below is a table listing the Leetcode problems I have solved, along with their r
 |    4. | **Continuous Subarray Sum**      | [Leetcode](https://leetcode.com/problems/continuous-subarray-sum/description/?envType=daily-question&envId=2024-06-08) | [View](https://github.com/Farooq-Mohammed/Daily-Leetcode/blob/main/ContinuousSubarraySum.java) |
 |    5. | **Subarray Sums Divisible by K** | [Leetcode](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/?envType=daily-question&envId=2024-06-09) | [View](https://github.com/Farooq-Mohammed/Daily-Leetcode/blob/main/SubarraySumsDivisiblebyK.java) |
 |    6. | **Height Checker**               | [Leetcode](https://leetcode.com/problems/height-checker/description/?envType=daily-question&envId=2024-06-10) | [View](https://github.com/Farooq-Mohammed/Daily-Leetcode/blob/main/HeightChecker.java) |
-|    7. | **Relative SortArray**           | [Leetcode](https://leetcode.com/problems/relative-sort-array/description/?envType=daily-question&envId=2024-06-11) | [View](https://github.com/Farooq-Mohammed/Daily-Leetcode/blob/main/RelativeSortArray.java) |
+|    7. | **Relative Sort Array**          | [Leetcode](https://leetcode.com/problems/relative-sort-array/description/?envType=daily-question&envId=2024-06-11) | [View](https://github.com/Farooq-Mohammed/Daily-Leetcode/blob/main/RelativeSortArray.java) |
 
 *Note: The table above will be regularly updated with new problems and solutions.*
 
