@@ -21,20 +21,40 @@ public class SortColors {
 
     Follow up: Could you come up with a one-pass algorithm using only constant extra space?
 */
-    public void sortColors(int[] nums) {
+    public void sortColors(int[] nums) { // Time complexity - O(N*N)
         int n = nums.length;
         int didNot = 0;
         for(int i = n-1;i >= 0; i--){
             for(int j = 0; j <= i-1; j++){
                 if(nums[j] > nums[j + 1]){
-                    int temp = nums[j + 1];
-                    nums[j + 1] = nums[j];
-                    nums[j] = temp;
+                    swap(nums, j, j + 1);
                     didNot = 1;
                 }
             }
             if(didNot==0){
                 break;
+            }
+        }
+    }
+
+    public void swap(int[] ar, int a, int b) {
+        ar[a] = ar[a] ^ ar[b] ^ (ar[b] = ar[a]);
+    }
+
+    public void sortColors2(int [] nums) { // Time complexity - O(N)
+        int low = 0;
+        int high = nums.length - 1;
+        int mid = 0;
+        while(mid <= high) {
+            if(nums[mid] == 0) {
+                swap(nums, low, mid);
+                low++;
+                mid++;
+            } else if(nums[mid] == 1) {
+                mid++;
+            } else {
+                swap(nums, mid, high);
+                high--;
             }
         }
     }
